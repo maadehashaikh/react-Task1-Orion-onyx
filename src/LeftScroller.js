@@ -110,7 +110,7 @@ const LeftScroller = () => {
           <div className='ratingsSec w-[80%] h-8 ml-10 flex flex-row mt-9'>
           <img className='ratings'
           src='https://tse2.mm.bing.net/th?id=OIP.iUEIssTxph9LmiurpEaQSwHaEL&pid=Api&P=0&h=220'></img>
-          <i class="fa-solid fa-check ml-3 mt-1 border-2 border-blue-50 rounded-full p-1 text-white bg-green-500"></i>
+          <i class="fa-solid fa-check ml-3 mt-1 border-1 border-blue-50 rounded-full p-1 text-white bg-green-500"></i>
           </div>
           <div className='description mb-[30%] mt-4'>
           <p className='text-base font-bold'>Haris Baig</p>
