@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import RightScroller from './Components/RightScroller/RightScroller';
-import LeftScroller from './Components/LeftScroller/LeftScroller';
+import RightScroller from './Components/LeftScroller/LeftScroller';
+import LeftScroller from './Components/RightScroller/RightScroller';
 
 function App() {
   return (

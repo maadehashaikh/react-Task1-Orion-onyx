@@ -5,8 +5,8 @@ import { Autoplay } from 'swiper/modules';
 import './styles.css'
 const LeftScroller = () => {
   return (
-    <div className='w-[35%] h-full  ml-[10%] '>
-      <Swiper
+    <div className='w-[55%] h-full bg-purple-500 '>
+      <Swiper className='ml-3 bg-yellow-300'
         direction={'vertical'}
         slidesPerView={'auto'}
         freeMode={true}

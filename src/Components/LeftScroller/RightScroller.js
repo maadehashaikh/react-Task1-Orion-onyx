@@ -8,8 +8,8 @@ import './style.css'
 import { Autoplay } from 'swiper/modules';
 const RightScroller = () => {
   return (
-    <div className='w-3/5 h-full'>
-        <Swiper
+    <div className='w-[160%] h-full ml-2 bg-blue-300'>
+        <Swiper className='bg-red-300'
        direction={'vertical'}
        slidesPerView={'auto'}
        freeMode={true}

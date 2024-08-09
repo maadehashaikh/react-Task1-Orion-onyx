@@ -12,11 +12,11 @@ body {
   padding: 0;
 }
 .swiper {
-  width: 100%;
+  width: 130%;
   height: 94%;
   margin-top: 20px;
   margin-left: 10px;
-  /* background-color: orange; */
+  background-color: blueviolet;
 }
 .swiper-slide {
   text-align: center;
@@ -29,10 +29,9 @@ body {
   border: 1.5px solid rgb(247, 242, 242);
   margin: 5px;
   border-radius: 8px;
-  background-color: rgb(229, 56, 12);
   flex-direction:row;
   gap: 13px;
-  opacity: 70%;
+  /* opacity: 70%; */
 }
 .swiper-slide img {
   display: block;
