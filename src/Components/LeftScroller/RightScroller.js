@@ -8,7 +8,7 @@ import './style.css'
 import { Autoplay } from 'swiper/modules';
 const RightScroller = () => {
   return (
-    <div className='w-[70%] h-full ml-2'>
+    <div className='w-[70%] h-full ml-4'>
         <Swiper
        direction={'vertical'}
        slidesPerView={'auto'}
@@ -22,7 +22,11 @@ const RightScroller = () => {
        loop={true}
        modules={[Autoplay]}
       >
-        <SwiperSlide className='bg-red-950 '>Slide 1</SwiperSlide>
+        <SwiperSlide className='bg-blue-400 w-full h-full text-white font-mono '>
+        <p>
+        As the CEO of XYZ Company, I am incredibly proud of the journey we have embarked upon. From our humble beginnings, we set out with a vision to revolutionize the industry through innovation and dedication.
+        </p>          
+        </SwiperSlide>
         <SwiperSlide>Slide 2</SwiperSlide>
         <SwiperSlide>Slide 3</SwiperSlide>
         <SwiperSlide>Slide 4</SwiperSlide>

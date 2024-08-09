@@ -15,9 +15,8 @@ body {
   width: 200%;
   height: 80%;
   margin-left: 10px;
-  /* background-color: rgb(228, 113, 113); */
 }
-.swiper-slide {
+.swiper-slide{
   text-align: center;
   font-size: 18px;
   display: flex;
@@ -30,7 +29,6 @@ body {
   border-radius: 8px;
   flex-direction:row;
   gap: 13px;
-  /* opacity: 70%; */
 }
 .swiper-slide img {
   display: block;

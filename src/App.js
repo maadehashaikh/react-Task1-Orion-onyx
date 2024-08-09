@@ -7,7 +7,7 @@ import LeftScroller from './Components/RightScroller/LeftScroller';
 function App() {
   return (
     <div className='w-full h-screen bg-[url(https://www.pixelstalk.net/wp-content/uploads/2016/05/Amazing-HD-Black-Wallpapers.jpg)] bg-no-repeat bg-cover flex'>
-      {/* <RightScroller/> */}
+      <RightScroller/>
       <LeftScroller/>
     </div>
   );
