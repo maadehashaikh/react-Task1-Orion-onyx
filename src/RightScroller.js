@@ -10,17 +10,17 @@ const RightScroller = () => {
   return (
     <div className='w-3/5 h-full'>
         <Swiper
-        direction={'vertical'}
-        loop = {true}
-        pagination={{
-          clickable: true,
-        }}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        modules={[Autoplay]}
-        className="mySwiper"
+       direction={'vertical'}
+       slidesPerView={'auto'}
+       freeMode={true}
+       autoplay={true}
+       scrollbar={{ draggable: true }}
+       autoplay={{
+         delay: 2500,
+         disableOnInteraction: false,
+       }}
+       loop={true}
+       modules={[Autoplay]}
       >
         <SwiperSlide>Slide 1</SwiperSlide>
         <SwiperSlide>Slide 2</SwiperSlide>

@@ -1,11 +1,12 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+
 import './styles.css';
 import { Autoplay } from 'swiper/modules';
 
 const LeftScroller = () => {
   return (
-    <div className='w-[35%] h-full  ml-[10%]'>
+    <div className='w-[35%] h-full  ml-[10%] '>
       <Swiper
         direction={'vertical'}
         slidesPerView={'auto'}
@@ -125,9 +126,9 @@ const LeftScroller = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src='https://w0.peakpx.com/wallpaper/107/46/HD-wallpaper-best-pose-for-profile-for-men-profile-pose-men-best-glasses.jpg'></img>
+          <img src='https://w0.peakpx.com/wallpaper/107/46/HD-wallpaper-best-pose-for-profile-for-men-profile-pose-men-best-glasses.jpg' className='ml-6'></img>
           <div className='description flex-col h-full '>
-          <div className='ratingsSec w-[80%] h-8 ml-20 flex mr-1 mb-4 '>
+          <div className='ratingsSec w-[80%] h-8 ml-16 flex mr-1 mb-4 '>
           <div className='fourstars flex w-auto mt-5 text-xs text-yellow-400'> 
           <i class="fa-solid fa-star"></i>
           <i class="fa-solid fa-star"></i>
@@ -146,7 +147,7 @@ const LeftScroller = () => {
         <SwiperSlide>
           <img src='https://tse1.mm.bing.net/th?id=OIP.MJQ4KnLLYRTDjRyg8YmQ8wHaHa&pid=Api&P=0&h=220' className='ml-2'></img>
           <div className='description flex-col h-full '>
-          <div className='ratingsSec w-[80%] h-8 ml-20 flex mr-1 mb-4 '>
+          <div className='ratingsSec w-[80%] h-8 ml-16 flex mr-1 mb-4 '>
           <div className='fourstars flex w-auto mt-5 text-xs text-yellow-400'> 
           <i class="fa-solid fa-star"></i>
           <i class="fa-solid fa-star"></i>
@@ -267,7 +268,7 @@ const LeftScroller = () => {
         <SwiperSlide>
         <img src='https://img.freepik.com/premium-photo/muslim-hijab-girl-corporate-office-desk-with-laptop-ai-generated_669954-501.jpg' className='ml-2' alt='Description of image' />
         <div className='description flex-col h-full '>
-          <div className='ratingsSec w-[80%] h-8 ml-20 flex mr-1 mb-4 '>
+          <div className='ratingsSec w-[80%] h-8 ml-16 flex mr-1 mb-4 '>
           <div className='fourstars flex w-auto mt-5 text-xs text-yellow-400'> 
           <i class="fa-solid fa-star"></i>
           <i class="fa-solid fa-star"></i>
@@ -348,5 +349,4 @@ const LeftScroller = () => {
     </div>
   );
 };
-
 export default LeftScroller;
