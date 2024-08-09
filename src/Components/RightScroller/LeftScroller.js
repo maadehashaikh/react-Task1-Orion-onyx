@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import { Autoplay } from 'swiper/modules';
 import './styles.css'
+
 const LeftScroller = () => {
   return (
     <div className=' h-full'>
