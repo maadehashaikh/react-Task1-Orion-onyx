@@ -1,9 +1,8 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import './styles.css';
 import { Autoplay } from 'swiper/modules';
-
+import './styles.css'
 const LeftScroller = () => {
   return (
     <div className='w-[35%] h-full  ml-[10%] '>
