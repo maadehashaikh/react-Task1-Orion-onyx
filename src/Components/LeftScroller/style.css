@@ -12,11 +12,10 @@ body {
   padding: 0;
 }
 .swiper {
-  width: 130%;
-  height: 94%;
-  margin-top: 20px;
+  width: 200%;
+  height: 80%;
   margin-left: 10px;
-  background-color: blueviolet;
+  /* background-color: rgb(228, 113, 113); */
 }
 .swiper-slide {
   text-align: center;
@@ -25,7 +24,7 @@ body {
   justify-content: center;
   align-items: center;
   width:92%;
-  height: 60vh!important; 
+  height: 80vh!important; 
   border: 1.5px solid rgb(247, 242, 242);
   margin: 5px;
   border-radius: 8px;
