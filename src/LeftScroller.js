@@ -11,7 +11,7 @@ const LeftScroller = () => {
         slidesPerView={'auto'}
         freeMode={true}
         autoplay={true}
-        mousewheel={true}
+        // mousewheel={true}
         scrollbar={{ draggable: true }}
         autoplay={{
           delay: 2500,
@@ -22,99 +22,150 @@ const LeftScroller = () => {
       >
         <SwiperSlide>
           <img src='https://tse2.mm.bing.net/th?id=OIP.1H4TjeN5dyNQdkXtz-q7IwHaE2&pid=Api&P=0&h=220'></img>
-          <div className='description flex-col'>
-          <div className='ratingsSec w-[80%] h-8 ml-10 flex flex-row mt-12'>
-          <img className='ratings'
-          src='https://tse2.mm.bing.net/th?id=OIP.iUEIssTxph9LmiurpEaQSwHaEL&pid=Api&P=0&h=220'></img>
+          <div className='description flex-col  h-full'>
+          <div className='ratingsSec w-[80%] h-8 ml-10 flex mr-1 mb-4 '>
+          <div className='fourstars flex w-auto mt-5 text-xs text-white'> 
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>  
+          </div> 
+          <div className='mt-2 text-xs'>  
           <i class="fa-solid fa-check ml-3 mt-1 border-2 border-blue-50 rounded-full p-1 text-white bg-green-500"></i>
           </div>
-          <div className='description mb-[60%] mt-4'>
-          <p className='text-base font-bold'> Waseem Aslam </p>
-          <p className='text-sm  font-medium'>CEO & Co-Founder</p>
+          </div>
+          <div className='description w-[90%] mt-4'>
+          <p className='text-lg font-bold text-white'> Waseem Aslam</p>
+          <p className='text-sm  font-medium text-white'>CEO & Co-Founder </p>
           </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
         <img src='https://c.pxhere.com/photos/93/c7/businessman_man_portrait_male_costume_business_office_office_style-815849.jpg!d'></img>
-          <div className='description flex-col'>
-          <div className='ratingsSec w-[80%] h-8 ml-10 flex flex-row mt-12 mr-1'>
-          <img className='ratings'
-          src='https://tse2.mm.bing.net/th?id=OIP.iUEIssTxph9LmiurpEaQSwHaEL&pid=Api&P=0&h=220'></img>
+          <div className='description flex-col  h-full'>
+          <div className='ratingsSec w-[80%] h-8 ml-10 flex mr-1 mb-4 '>
+          <div className='fourstars flex w-auto mt-5 text-xs text-white'> 
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>  
+          </div> 
+          <div className='mt-2 text-xs'>  
           <i class="fa-solid fa-check ml-3 mt-1 border-2 border-blue-50 rounded-full p-1 text-white bg-green-500"></i>
           </div>
-          <div className='description mb-[60%] mt-4 mr-1'>
-          <p className='text-base font-bold'> Muhammad Akmal </p>
-          <p className='text-sm  font-medium'>Managing Director </p>
+          </div>
+          <div className='description w-[90%] mt-4'>
+          <p className='text-lg font-bold text-white'> Muhammad Akmal </p>
+          <p className='text-sm  font-medium text-white'>Managing Director </p>
           </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
         <img src='https://tse3.mm.bing.net/th?id=OIP.cive38eqp7C2RKVt4xkzbQHaLH&pid=Api&P=0&h=220'></img>
-          <div className='description flex-col'>
-          <div className='ratingsSec w-[80%] h-8 ml-10 flex flex-row mt-12'>
-          <img className='ratings'
-          src='https://tse2.mm.bing.net/th?id=OIP.iUEIssTxph9LmiurpEaQSwHaEL&pid=Api&P=0&h=220'></img>
+        <div className='description flex-col  h-full'>
+          <div className='ratingsSec w-[80%] h-8 ml-10 flex mr-1'>
+          <div className='fourstars flex w-auto mt-5 mb-3 text-xs text-white'> 
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>  
+          </div> 
+          <div className='mt-2 text-xs'>  
           <i class="fa-solid fa-check ml-3 mt-1 border-2 border-blue-50 rounded-full p-1 text-white bg-green-500"></i>
           </div>
-          <div className='description mb-[60%] mt-4 mr-1'>
-          <p className='text-base font-bold'>Aseem Aslam  </p>
-          <p className='text-sm  font-medium'>Director Operations</p>
+          </div>
+          <div className='description w-[90%] mt-4'>
+          <p className='text-lg font-bold text-white'> Aseem Aslam </p>
+          <p className='text-sm  font-medium text-white'>Director Operations</p>
           </div>
           </div>
+
+          
         </SwiperSlide>
         <SwiperSlide>
         <img src='https://tse3.mm.bing.net/th?id=OIP.xtViBqtQwL-sXEtETzKoKwHaHa&pid=Api&P=0&h=220'></img>
-          <div className='description flex-col'>
-          <div className='ratingsSec w-[80%] h-8 ml-10 flex flex-row mt-12'>
-          <img className='ratings'
-          src='https://tse2.mm.bing.net/th?id=OIP.iUEIssTxph9LmiurpEaQSwHaEL&pid=Api&P=0&h=220'></img>
+        <div className='description flex-col  h-full'>
+          <div className='ratingsSec w-[80%] h-8 ml-10 flex mr-1 mb-4 '>
+          <div className='fourstars flex w-auto mt-5 text-xs text-white'> 
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>  
+          </div> 
+          <div className='mt-2 text-xs'>  
           <i class="fa-solid fa-check ml-3 mt-1 border-2 border-blue-50 rounded-full p-1 text-white bg-green-500"></i>
           </div>
-          <div className='description mb-[60%] mt-4 mr-3'>
-          <p className='text-base font-bold'>Hina Afzal</p>
-          <p className='text-sm  font-medium'>HR Manager</p>
+          </div>
+          <div className='description w-[90%] mt-4'>
+          <p className='text-lg font-bold text-white'> Hina Afzal</p>
+          <p className='text-sm  font-medium text-white'>HR Manager </p>
           </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
         <img src='https://tse3.mm.bing.net/th?id=OIP.5ULYZY56EMkesegRk7gkZgHaHR&pid=Api&P=0&h=220'></img>
-          <div className='description flex-col'>
-          <div className='ratingsSec w-[80%] h-8 ml-10 flex flex-row mt-12'>
-          <img className='ratings'
-          src='https://tse2.mm.bing.net/th?id=OIP.iUEIssTxph9LmiurpEaQSwHaEL&pid=Api&P=0&h=220'></img>
+        <div className='description flex-col  h-full'>
+          <div className='ratingsSec w-[80%] h-8 ml-10 flex mr-1 mb-4 '>
+          <div className='fourstars flex w-auto mt-5 text-xs text-white'> 
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>  
+          </div> 
+          <div className='mt-2 text-xs'>  
           <i class="fa-solid fa-check ml-3 mt-1 border-2 border-blue-50 rounded-full p-1 text-white bg-green-500"></i>
           </div>
-          <div className='description mb-[60%] mt-4 mr-3'>
-          <p className='text-base font-bold'>Aqsa Shafeeq </p>
-          <p className='text-sm  font-medium'>Accountant</p>
+          </div>
+          <div className='description w-[90%] mt-4'>
+          <p className='text-lg font-bold text-white'> Aqsa Shafeeq</p>
+          <p className='text-sm  font-medium text-white'>Accountant </p>
           </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <img src='https://w0.peakpx.com/wallpaper/107/46/HD-wallpaper-best-pose-for-profile-for-men-profile-pose-men-best-glasses.jpg'></img>
-          <div className='description flex-col'>
-          <div className='ratingsSec w-[80%] h-8 ml-10 flex flex-row mt-12'>
-          <img className='ratings'
-          src='https://tse2.mm.bing.net/th?id=OIP.iUEIssTxph9LmiurpEaQSwHaEL&pid=Api&P=0&h=220'></img>
+          <div className='description flex-col h-full '>
+          <div className='ratingsSec w-[80%] h-8 ml-10 flex mr-1 mb-4 '>
+          <div className='fourstars flex w-auto mt-5 text-xs text-white'> 
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>  
+          </div> 
+          <div className='mt-2 text-xs'>  
           <i class="fa-solid fa-check ml-3 mt-1 border-2 border-blue-50 rounded-full p-1 text-white bg-green-500"></i>
           </div>
-          <div className='description mb-[48%] mt-4 mr-1'>
-          <p className='text-base font-bold'>Muhammad Babar</p>
-          <p className='text-sm  font-medium'>Admin Officer</p>
+          </div>
+          <div className='description w-[90%] mt-4'>
+          <p className='text-lg font-bold text-white'> Muhammad Babar</p>
+          <p className='text-sm  font-medium text-white'>Admin Officer </p>
           </div>
           </div>
           </SwiperSlide>
         <SwiperSlide>
           <img src='https://tse1.mm.bing.net/th?id=OIP.MJQ4KnLLYRTDjRyg8YmQ8wHaHa&pid=Api&P=0&h=220' className='ml-2'></img>
-          <div className='description flex-col'>
-          <div className='ratingsSec w-[80%] h-8 ml-10 flex flex-row mt-9'>
-          <img className='ratings'
-          src='https://tse2.mm.bing.net/th?id=OIP.iUEIssTxph9LmiurpEaQSwHaEL&pid=Api&P=0&h=220'></img>
-          <i class="fa-solid fa-check ml-3 mt-1 border-1 border-blue-50 rounded-full p-1 text-white bg-green-500"></i>
+          <div className='description flex-col h-full '>
+          <div className='ratingsSec w-[80%] h-8 ml-10 flex mr-1 mb-4 '>
+          <div className='fourstars flex w-auto mt-5 text-xs text-white'> 
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>  
+          </div> 
+          <div className='mt-2 text-xs'>  
+          <i class="fa-solid fa-check ml-3 mt-1 border-2 border-blue-50 rounded-full p-1 text-white bg-green-500"></i>
           </div>
-          <div className='description mb-[30%] mt-4'>
-          <p className='text-base font-bold'>Haris Baig</p>
-          <p className='text-sm font-sm'>Senior Web Developer & Team leader</p>
+          </div>
+          <div className='description w-[90%] mt-4'>
+          <p className='text-lg font-bold text-white'>Haris Baig</p>
+          <p className='text-sm  font-medium text-white'>Senior Web Developer & Team leader </p>
           </div>
           </div>
           </SwiperSlide>
