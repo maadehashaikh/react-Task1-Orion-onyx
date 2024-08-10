@@ -38,6 +38,7 @@ body {
   border-radius: 10px;
   border: 2px solid rgb(247, 240, 240);
   margin-left: 10px;
+  object-fit: cover;
 }
 .swiper-slide .ratings{
   width: 70px;
